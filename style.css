@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+nav {
+    display: inline-block;
+    color: crimson;
+}
+li {
+    list-style: none;
+}
+
+main {
+    margin: auto;
+    max-width: 900px;
+}
+
+footer {
+    text-align: center;
+}
