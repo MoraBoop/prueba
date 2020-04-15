@@ -5,21 +5,39 @@ body {
 
 h1 {
     font-weight: bolder;
+    text-align: center;
 }
 
 nav {
-    display: inline-block;
+    display: block;
     color: crimson;
+    text-align: center;    
+}
+nav ul li {
+    display: inline;
 }
 li {
+    padding: 5px;
     list-style: none;
 }
 
 main {
     margin: auto;
-    max-width: 900px;
+    max-width: 700px;
 }
 
 footer {
     text-align: center;
+}
+
+article {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+
+.grip-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
 }
